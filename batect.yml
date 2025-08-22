@@ -13,3 +13,13 @@ tasks:
   consul-cert-fetcher:
     run:
       container: consul-cert-fetcher
+
+  lint:
+    run:
+      container: consul-cert-fetcher
+      entrypoint: true
+
+  run-tests:
+    run:
+      container: consul-cert-fetcher
+      entrypoint: true
