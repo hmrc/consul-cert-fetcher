@@ -1,0 +1,15 @@
+forbid_telemetry: true
+project_name: consul-cert-fetcher
+
+containers:
+  consul-cert-fetcher:
+    build_directory: containers/consul-cert-fetcher
+    environment:
+      ZONE_WILDCARD_CERT: aGVsbG8K
+      ZONE_WILDCARD_KEY: aGVsbG8K
+
+
+tasks:
+  consul-cert-fetcher:
+    run:
+      container: consul-cert-fetcher
