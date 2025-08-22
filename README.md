@@ -1,8 +1,3 @@
+# Consul Cert Fetcher
 
-# consul-cert-fetcher
-
-This is a placeholder README.md for a new repository
-
-### License
-
-This code is open source software licensed under the [Apache 2.0 License]("http://www.apache.org/licenses/LICENSE-2.0.html").
+This is a simple container that pulls the required dataplane certificates to disk
